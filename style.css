@@ -1,0 +1,125 @@
+@font-face {
+    font-family: pinkylove;
+    src: url(Pinky\ Love.ttf);
+}
+@font-face {
+    font-family: louisfontcafe;
+    src: url(Louis\ George\ Cafe.ttf);
+}
+html{
+    background-color: cornsilk;
+}
+body{
+    background-color: rgb(182, 147, 212);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 1800px;
+}
+h1#title{
+    text-align: center;
+    font-family: pinkylove;
+    letter-spacing: 2px;
+}
+div.mothercard{
+    border-color: bisque;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 6px;
+    margin: 4%;
+    background-color: rgb(233, 181, 163);
+    position: relative;
+    font-family: louisfontcafe;
+}
+img#nainaiimage{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2%;
+}
+p#chongraynainai{
+    position: absolute;
+    padding-right: 77%;
+    top: 8%;
+    left: 1%;
+}
+p#chongraychinese{
+    position: absolute;
+    padding-right: 76%;
+    top: 2%;
+    left: 1%;
+}
+div#nainai{
+    height: 500px;
+}
+p#shannachinese, p#shannanainai{
+    text-align: center;
+}
+p#shannanainai{
+    position: relative;
+    bottom: 2%;
+}
+img#baningimage{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+div#baning{
+    text-align: center;
+
+    height: 560px;
+}
+div#baning > p{
+    font-size: 24px;
+}
+p#chongraybaning{
+    position: relative;
+    bottom: 2%;
+}
+img#mamaimage{
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+div#mama{
+    font-size: 24px;
+}
+p#shanna{
+    position: absolute;
+    padding-right: 68%;
+    top: 3%;
+    left: 2%;
+}
+p#shannamama{
+    position: absolute;
+    padding-right: 68%;
+    top: 9%;
+    left: 2%;
+}
+p#ian{
+    position: absolute;
+    padding-left: 68%;
+    top: 3%;
+}
+p#ianmama{
+    position: absolute;
+    padding-left: 68%;
+    top: 9%;
+}
+p#ianchinese{
+    position: absolute;
+    top: 2%;
+    right: 19%;
+}
+p#iannainai{
+    position: absolute;
+    top: 8%;
+    right: 2%;
+    padding-left: 76.5%;
+}
