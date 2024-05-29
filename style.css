@@ -9,18 +9,20 @@
 html{
     background-color: cornsilk;
 }
-body{
+.whitebackground{
+    background-color: cornsilk;
+}
+#background-purple{
     background-color: rgb(182, 147, 212);
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 1800px;
 }
-h1#title{
-    text-align: center;
+#title{
     font-family: pinkylove;
-    letter-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 1%;
 }
-div.mothercard{
+div.mothercard {
     border-color: bisque;
     border-style: solid;
     border-width: 4px;
@@ -30,96 +32,55 @@ div.mothercard{
     position: relative;
     font-family: louisfontcafe;
 }
-img#nainaiimage{
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 2%;
-}
-p#chongraynainai{
-    position: absolute;
-    padding-right: 77%;
-    top: 8%;
-    left: 1%;
-}
-p#chongraychinese{
-    position: absolute;
-    padding-right: 76%;
-    top: 2%;
-    left: 1%;
-}
-div#nainai{
-    height: 500px;
-}
-p#shannachinese, p#shannanainai{
-    text-align: center;
-}
-p#shannanainai{
-    position: relative;
-    bottom: 2%;
-}
-img#baningimage{
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-}
-div#baning{
-    text-align: center;
-
-    height: 560px;
-}
-div#baning > p{
-    font-size: 24px;
-}
-p#chongraybaning{
-    position: relative;
-    bottom: 2%;
-}
-img#mamaimage{
-    height: 450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
+#nainaiimage{
+    margin-top: 4%;
     margin-bottom: 2%;
 }
-div#mama{
-    font-size: 24px;
+#nainaiimagemobilephone{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    transform: scaleX(0.95);
 }
-p#shanna{
-    position: absolute;
-    padding-right: 68%;
-    top: 3%;
-    left: 2%;
+@media only screen and (max-width: 575px) {
+    .chongraynainaip, .iannainai, .shannanainai, .chongraybaning, .shannamama, .didimama{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .iannainai, .shannanainai{
+        margin-top: 4%;
+    }
+    .didimama{
+        margin-top: 5%;
+    }
+    .chongraybaning, .mama{
+        font-size: 1.3em;
+    }
+    #mamaimagemobilephone{
+        margin-top: 2%;
+    }
 }
-p#shannamama{
-    position: absolute;
-    padding-right: 68%;
-    top: 9%;
-    left: 2%;
+@media only screen and (min-width: 576px) {
+    .chongraynainaip{
+        margin-left: 5%;
+    }
+    .iannainai{
+        position: relative;
+        right: 6%;
+    }
+    .chongraybaning, .mama{
+        font-size: 1.5em;
+    }
+    .shannamama{
+        margin-left: 4%;
+    }
+    .didimama{
+        position: relative;
+        right: 4%;
+    }
 }
-p#ian{
-    position: absolute;
-    padding-left: 68%;
-    top: 3%;
+#baningimage{
+    transform: scaleX(0.95);
 }
-p#ianmama{
-    position: absolute;
-    padding-left: 68%;
-    top: 9%;
-}
-p#ianchinese{
-    position: absolute;
-    top: 2%;
-    right: 19%;
-}
-p#iannainai{
-    position: absolute;
-    top: 8%;
-    right: 2%;
-    padding-left: 76.5%;
+#mamaimage, #mamaimagemobilephone{
+    transform: scale(0.95);
 }
